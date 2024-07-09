@@ -1,43 +1,13 @@
-/* .aside-section{
-    transform: rotate(-90deg);
-    color: rgba(24, 24, 24, 0.15);
-font-family: "Open Sans";
-font-size: 100px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 33px;
-text-align: left;
-justify-content: left;
-} */
+/* Shared Style */
 
+
+
+/* Nav related styles */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
-
-.text-primary {
-    color: #FD6E0A;
-}
-
-.button-primary {
-    width: 150px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: #FD6E0A;
-    color: var(--White-Color, #FFF);
-    font-size: 20px;
-}
-
-.nav-title {
-    color: var(--Dark-01, #181818);
-    font-family: "Open Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    margin: 0 200px;
 }
 
 nav ul {
@@ -53,4 +23,78 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.portfolio-title {
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.primary-text {
+    color: #FD6E0A;
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.primary-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+
+}
+
+/* header related style */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.banner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+
+.portfolio-picture {
+    width: 500px;
+
+}
+
+.banner-gretting {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+
+}
+.banner-description{
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 500px;
 }
